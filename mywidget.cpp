@@ -15,6 +15,7 @@ MyWidget::MyWidget(QWidget *parent) :
     Qpb2->setParent(this);
     Qpb2->show();
     Qpb2->setText("第一个按钮");
+    Qpb2->resize(100,20);
     QPushButton * Qpb3 = new QPushButton("第三个按钮",this); // 可以看到第三个按钮把第二个按钮遮盖了
     resize(600,400);
     Qpb3->move(100,100);
